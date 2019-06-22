@@ -1,15 +1,33 @@
 <!DOCTYPE html>
 <html>
-<meta charset="utf-8">
-	<head>
-		<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
-		<script src='p5.min.js'></script>
-		<script src='ship.js'></script>
-		<script src='laser.js'></script>
-		<script src='asteroids.js'></script>
-		<script src='sketch.js'></script>
-	</head>
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Anton|Teko&display=swap" rel="stylesheet">
+  <style>
+      div{  color :white;
+            text-align: center;
+            font-size: 45px;
+            font-style: oblique;
+            font-family:Teko;
+            font-stretch: extra-expanded;
+            letter-spacing: 0.5em;
+            font-weight:bold;
+      }
+      #myDiv{
+        font-size: 70px;
+        letter-spacing: 0.1em;
+      }
+      #myA{
+        color: white;
+        font-style: normal;
+        text-decoration: none;
+      }
 
-	<body>
-	</body>
+
+  </style>
+</head>
+<body style="background-image: url('space.jpg'); background-size: cover;">
+<div id="myDiv" onmouseover="this.style.color = '#AABBCC'" onmouseout="this.style.color = 'white'">Advanced Web Programming</div>
+<a id="myA" href="game.html"><div onmouseover="this.style.color = '#AABBCC'" onmouseout="this.style.color = 'white'">Game Start</div></a>
+
+</body>
 </html>
